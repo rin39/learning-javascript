@@ -1,0 +1,27 @@
+html {
+  font-size: 14pt;
+  font-family: monospace;
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 80pt;
+}
+
+.result {
+  font-size: 24pt;
+  display: none;
+}
+
+.formula {
+  margin-top: 10px;
+  font-size: 20pt;
+  display: none;
+}
+
+.visible {
+  display: block;
+}

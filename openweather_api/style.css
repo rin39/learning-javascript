@@ -1,0 +1,29 @@
+html {
+  background-color: #303030;
+  color: #ffffff;
+  font-size: 24pt;
+}
+
+select {
+  background-color: inherit;
+  color: inherit;
+  font-size: 14pt;
+}
+
+input {
+  background-color: inherit;
+  color: inherit;
+  outline: none;
+  font-size: 14pt;
+}
+
+button {
+  background-color: inherit;
+  color: inherit;
+  font-size: 14pt;
+}
+
+a {
+  color: #50fa7b;
+  font-size: 14pt;
+}

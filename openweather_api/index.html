@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="util.js" defer></script>
+    <script src="app_json_callback.js" defer></script>
+    <script src="app_json_promise.js" defer></script>
+    <script src="app_xml_fetch.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="indicators">
+      <p>Temperature: <span id="temp"></span></p>
+      <p>Weather: <span id="weatherDescription"></span></p>
+    </div>
+    <div class="buttons">
+      <button id="JSON callback">JSON Callback</button>
+      <button id="JSON promise">JSON Promise</button>
+      <button id="XML fetch">XML Fetch</button>
+    </div>
+    <div class="inputs">
+      <input type="text" />
+      <select>
+        <option value="metric">Metric</option>
+        <option value="imperial">Imperial</option>
+      </select>
+    </div>
+  </body>
+  <footer>
+    <p><a href="https://openweathermap.org/api">Openweathermap API</a></p>
+  </footer>
+</html>

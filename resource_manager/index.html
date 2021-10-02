@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resource Manager</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Resource Manager</h1>
+    </header>
+    <main>
+      <section class="input">
+        <div>
+          <label for="resources">Resource</label>
+          <select id="resources">
+            <option value="METAL" id="METAL">METAL</option>
+            <option value="WOOD" id="WOOD">WOOD</option>
+            <option value="GLASS" id="GLASS">GLASS</option>
+          </select>
+        </div>
+        <div>
+          <label for="amount">Amount</label>
+          <input type="number" id="amount" />
+          <button id="add">Add</button>
+          <button id="subtract">Subtract</button>
+        </div>
+      </section>
+      <section class="create">
+        <div class="create-remove-resources">
+          <input type="text" />
+          <button id="new-resource">Create New Resource</button>
+          <button id="remove-resource">Remove</button>
+        </div>
+      </section>
+      <section class="show">
+        <div>
+          <p>METAL: <span id="METAL-amount"></span></p>
+          <p>WOOD: <span id="WOOD-amount"></span></p>
+          <p>GLASS: <span id="GLASS-amount"></span></p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
